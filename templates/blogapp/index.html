@@ -1,5 +1,14 @@
 {% extends "layout.html" %}
 
 {% block content %}
-Hello world
+
+{% for p in posts %}
+    <div>
+        {{p.post_header}}
+        {{p.category.category_name}}
+        {{p.datetime}}
+    </div>
+    <br>
+{% endfor %}
+
 {% endblock %}
