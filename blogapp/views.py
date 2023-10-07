@@ -2,6 +2,8 @@ from django.shortcuts import render
 from .models import Post
 from django.views.generic import DetailView
 # Create your views here
+
+# Получити доступні пости
 def index(req):
 
     post_list = Post.objects.all()
