@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles/style.css' %}">
 </head>
 <body>
     <header>
         <nav>
-            <a href="{%url 'home'%}">Вернутись назад</a>
+            <a class="link" href="{%url 'home'%}">Вернутись назад</a>
         </nav>
     </header>
     {% block content %}

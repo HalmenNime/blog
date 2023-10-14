@@ -1,0 +1,32 @@
+body{
+    background-color: #629faa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #000000;
+    padding: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: #0ab9ee;
+}
+
+header .link{
+    color: #0295c2;
+}
+
+.blogpost{
+    border: 2px solid black;
+    width: 50%;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background: #314549;
+}
+
+.date{
+    float: right;
+    color: aqua
+}
