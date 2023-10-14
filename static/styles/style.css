@@ -30,3 +30,36 @@ header .link{
     float: right;
     color: aqua
 }
+
+.nav-li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-li:first-child{
+    margin-left: 0;
+}
+
+.nav-li:last-child{
+    margin-left: 80%;
+}
+
+.content{
+    margin: 10px;
+    width: 75%;
+}
+
+.content h2{
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.post-text{
+    border-top: 5px solid black;
+}
+
+.author{
+    font-weight: bold;
+    float: right
+}
