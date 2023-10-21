@@ -1,7 +1,8 @@
 {% extends "layout.html" %}
 
 {% block content %}
-
+{%load static%}
+<img class = "logo" src="{% static 'images/logo.png' %}" alt="logo">
 {% for p in posts %}
     <div class="blogpost">
         <a class="link" href="{{p.get_absolute_url}}">{{p.post_header}}</a>

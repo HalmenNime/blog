@@ -51,7 +51,7 @@ header .link{
 
 .content h2{
     margin-left: 10%;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: larger;
 }
 
@@ -59,7 +59,31 @@ header .link{
     border-top: 5px solid black;
 }
 
+.post-text img{
+    margin-top: 0;
+    width: 23%;
+    position: relative;
+    bottom: 100px;
+}
+
+.post-text p{
+    font-size: 18px;
+    width: 75%;
+    display: inline-block;
+}
+
 .author{
     font-weight: bold;
-    float: right
+    float: right;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: right;
+    position: absolute;
+    top: 100px;
+    left: 75%;
 }
