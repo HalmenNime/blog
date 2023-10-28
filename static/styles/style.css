@@ -63,7 +63,7 @@ header .link{
     margin-top: 0;
     width: 23%;
     position: relative;
-    bottom: 100px;
+    bottom: 10px;
 }
 
 .post-text p{
@@ -86,4 +86,13 @@ header .link{
     position: absolute;
     top: 100px;
     left: 75%;
+}
+
+.my-list{
+    width: 25%
+}
+
+.my-list-item{
+    background: #3145495d;
+    margin: 3px;
 }

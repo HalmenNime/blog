@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h1>Список Авторів</h1>
+
+<ul class="list-group my-list">
+    {% for category in category_list %}
+        <li class="list-group-item my-list-item">
+            <a class="link" href="/?category={{category.category_name}}">{{category.category_name}}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
