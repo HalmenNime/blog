@@ -5,7 +5,7 @@ class Category(models.Model):
     category_name = models.CharField(max_length=25)
 # Створенная класса поста
 class Post(models.Model):
-    post_header = models.CharField(max_length=50)
+    post_header = models.CharField(max_length=100)
     post_text = models.TextField()
     author = models.CharField(max_length=50)
     datetime = models.DateTimeField()

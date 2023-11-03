@@ -10,7 +10,14 @@
         
         <p class="date">
             {{p.datetime}}
+            <br>
+            <a class="author" href="/?author={{p.author}}">
+                {{p.author}}
+            </a>
         </p>
+        <br>
+        <img src="media/{{ p.image }}" alt="not found">
+    
     </div>
     <br>
 {% endfor %}

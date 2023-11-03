@@ -41,7 +41,7 @@ header .link{
 }
 
 .nav-li:last-child{
-    margin-left: 80%;
+    margin-left: 60%;
 }
 
 .content{
@@ -57,12 +57,20 @@ header .link{
 
 .post-text{
     border-top: 5px solid black;
+    background: #3145495d;
 }
 
 .post-text img{
     margin-top: 0;
     width: 23%;
     position: relative;
+    bottom: 10px;
+}
+
+.blogpost img{
+    margin-top: 0;
+    width: 30%;
+    position: unset;
     bottom: 10px;
 }
 
@@ -75,7 +83,9 @@ header .link{
 .author{
     font-weight: bold;
     float: right;
+    color: #00536d;
 }
+
 
 .logo{
     width: 200px;
